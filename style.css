@@ -1,16 +1,21 @@
-body {
+.container_outer {
     display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
     flex-wrap: wrap;
-    gap: 2rem;
+    /* gap: 2rem; */
     background-color: gainsboro;
     margin-top: 2rem;
     /* padding:0px; */
   }
   .container {
-    align-items: center;
-    justify-content: space-evenly;
-    max-width: 300px;
-    width: 100%;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+    width: 300px;
+    /* width: 50%; */
     line-height: 0.5;
     height: 17rem;
     border: 1px solid blanchedalmond;
@@ -54,4 +59,13 @@ strong{
     transform: scale(1.5);
     overflow: hidden;
     cursor:pointer;
+}
+
+.btn1,.btn2{
+    width: 10rem;
+    height: 5rem;
+    color: black;
+    background-color:indianred;
+    font-size: 30px;
+    cursor: pointer;
 }
